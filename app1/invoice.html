@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>MK Admin Panel</title>
+  
+  
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+<link rel='stylesheet prefetch' href='http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Admin Panel</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a><span class="glyphicon glyphicon-user">&nbsp;</span>Hello Admin</a></li>
+        <li><a href="#">Logout / Quit </a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container-fluid">
+  <div class="col-md-2">
+
+    <div id="sidebar">
+
+      <ul class="nav navbar-nav side-bar">
+        <li class="side-bar tmargin"><a href="main.html"><span class="glyphicon glyphicon-dashboard">&nbsp;</span>Dashboard</a></li>
+        <li class="side-bar"><a href="network.html"><span class="glyphicon glyphicon-globe">&nbsp;</span>Hubungan</a></li>
+        <li class="side-bar" style="background:#fff"><a href="upu.html" style="color:#000"><span class="glyphicon glyphicon-list-alt">&nbsp;</span>Utang / Piutang</a></li>
+        
+          <li >
+          <a href="jual.html" ><span class="glyphicon glyphicon-transfer">&nbsp;</span>Transaksi</a></li>
+          
+          <li class="side-bar">
+          <a href="jual.html">  
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="glyphicon glyphicon-circle-arrow-left">&nbsp;</span>Penjualan</a></li>
+          
+          <li class="side-bar">
+          <a href="beli.html"> 
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="glyphicon glyphicon-circle-arrow-right">&nbsp;</span>Pembelian</a></li>
+          
+          <li class="side-bar"><a href="#"><span class="glyphicon glyphicon-duplicate">&nbsp;</span>Accounting</a></li>
+
+        <li class="side-bar"><a href="#"><span class="glyphicon glyphicon-signal">&nbsp;</span>Statistics</a></li>
+        <li class="side-bar"><a href="#"><span class="glyphicon glyphicon-cog">&nbsp;</span>Settings</a></li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="col-md-10 ">
+  
+  <div class="col-md-2">
+          <button type="button" class="btn btn-secondary btn-md btn-block">
+          <span class="glyphicon glyphicon-triangle-left">&nbsp;</span><strong>Kembali</strong></button>
+        </div>
+  
+    <h1 class="page-header">Rincian</h1>
+    
+    
+    <div class="container-fluid">
+  <div id="bill-display">
+    <!-- ----- HEADER ---- -->
+    <table class="table table-bordered">
+      <caption class="text-center">RETAIL INVOICE <small class="pull-right">(original)</small></caption>
+      <tr>
+        <td colspan="3" rowspan="3">
+          <div class="box-title" style="font-weight:bold">
+           MIKI KIJANG
+          </div>
+          <div class="box-content">
+          Address Line 1<br>
+          Address Line 2<br>
+          Postal Code<br>
+          Fax: 0271 625458<br>
+          Tel: 0265-2561202<br>
+          HP: 9601683578 / 9879962148
+          </div>
+        </td>
+        <td colspan="2">
+          <div class="box-title" style="font-weight:bold">Nomor Nota</div>
+          <div class="box-content">452</div>
+        </td>
+        <td colspan="2">
+          <div class="box-title" style="font-weight:bold">Tanggal</div>
+          <div class="box-content">10-08-2016</div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="box-title" style="font-weight:bold">Nota Pengantaran</div>
+          <div class="box-content">967</div>
+        </td>
+        <td colspan="2">
+          <div class="box-title" style="font-weight:bold">Cara Pembayaran</div>
+          <div class="box-content"></div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <div class="box-title" style="font-weight:bold">Dispatch Document</div>
+          <div class="box-content"></div>
+        </td>
+        <td colspan="2">
+          <div class="box-title" style="font-weight:bold">Dated</div>
+          <div class="box-content">10-08-2016</div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="3" rowspan="3">
+          <div class="box-title" style="font-weight:bold">Pembeli</div>
+          <div class="box-content">
+            Nama Pembeli<br>
+            Nama Bisnis<br>
+            M: 9898979796
+          </div>
+        </td>
+        <td colspan="4">
+          <div class="box-title" style="font-weight:bold">Syarat Pengantaran</div>
+          <div class="box-content"></div>
+        </td>
+      </tr>
+      <tr></tr><tr></tr>
+      <!-- ----- BODY ---- -->
+      <tr class="heading-row v-row" style="font-weight:bold">
+        <td>Sr<br>No.</td>
+        <td>Deskripsi / Produk</td>
+        <td>Kode Produk</td>
+        <td>Kuantitas</td>
+        <td>Rate</td>
+        <td>per</td>
+        <td>Jumlah (Rp.)</td>
+      </tr>
+      <tr class="v-row">
+        <td>1</td>
+        <td>Metal Screw Ph Combination</td>
+        <td></td>
+        <td class="text-right">237.00 Kgs</td>
+        <td class="text-right">110.00</td>
+        <td>Kg</td>
+        <td class="text-right">26070.00</td>
+      </tr>
+      <tr class="v-row">
+        <td>1</td>
+        <td>Metal Screw Ph Combination</td>
+        <td></td>
+        <td class="text-right">237.00 Kgs</td>
+        <td class="text-right">110.00</td>
+        <td>Kg</td>
+        <td class="text-right">26070.00</td>
+      </tr>
+      <tr class="v-row">
+        <td>1</td>
+        <td>Metal Screw Ph Combination</td>
+        <td></td>
+        <td class="text-right">237.00 Kgs</td>
+        <td class="text-right">110.00</td>
+        <td>Kg</td>
+        <td class="text-right">26070.00</td>
+      </tr>
+      <tr class="total-row v-row">
+        <td colspan="3" class="text-right">Total</td>
+        <td class="text-right">711.00 Kgs</td>
+        <td></td>
+        <td></td>
+        <td class="text-right">78210.00</td>
+      </tr>
+      <!-- ----- FOOTER ---- -->
+      <tr>
+        <td colspan="3">
+          <div class="box-content">Amount Chargeable(in words)</div>
+          <div class="box-title">Seventy Eight Thousands Two Hundred Ten  Rs Only</div>
+        </td>
+        <td colspan="4"></td>
+      </tr>
+      <tr>
+        <td colspan="3">
+          Company's VAT TIN: <span id="comp-vat-tin"></span><br>
+          Company's CST No: <span id="comp-cst-no"></span><br>
+          BANK DETAILS: A/C NO: <br>
+          IFSCODE: <br>
+          Declaration:<br>
+          We declare that this invoice shows the actual price of the goods described and that all particulars are true and correct.
+        </td>
+        <td colspan="4">
+          <div class="box-title text-right">
+            for ROKADNATH TRADERS
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td colspan="7" class="text-center">
+          SUBJECT TO VADODARA JURIDICTION<br>
+          This is a Computer Generated Invoice.
+        </td>
+      </tr>
+    </table>
+  </div>
+  <button class="btn btn-default .print-btn" onclick="jsvascript:window.print()">Print Invoice</button>
+</div>
+    
+    
+    
+  </div>
+</div>
+
+</div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+  
+</body>
+</html>

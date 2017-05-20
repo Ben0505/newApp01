@@ -1,0 +1,19 @@
+.box-title{
+  font-weight:bold;
+}
+.heading-row td{
+  font-weight:bold;
+  text-align:center;
+  border-bottom:solid 1px red;
+}
+.total-row td{
+  font-weight:bold;
+}
+.v-row td{
+  border:none;
+}
+@media print{
+  button .print-btn{
+    display:none;
+  }
+}
